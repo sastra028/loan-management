@@ -1,0 +1,95 @@
+/transactionDetail/find/transactionDetailNo
+req
+{
+	"transactionDetailNo":"",
+	"transactionNo":"",
+	"accountNo":""
+}
+
+res
+{
+	"transactionDetailNo":"",
+	"transactionNo":"",
+	"accountNo":"",
+	"transactionStatus":"",
+	"amount":"",
+	"principle":"",
+	"interest":"",
+	"fines":"",
+	"note":"",
+	"createDate":"",
+	"createBy":""
+}
+
+/transactionDetail/find/transactionStatus
+req
+{
+	"transactionNo":""
+}
+
+res
+{
+	"transactionDetailNo":"",
+	"transactionNo":"",
+	"accountNo":"",
+	"transactionStatus":"",
+	"amount":"",
+	"principle":"",
+	"interest":"",
+	"fines":"",
+	"note":"",
+	"createDate":"",
+	"createBy":""
+}
+
+
+/transactionDetail/create
+req
+{
+	"transactionNo":"",
+	"accountNo":"",
+	"transactionStatus":"",
+	"amount":"",
+	"principle":"",
+	"interest":"",
+	"fines":"",
+	"note":"",
+	"createDate":"",
+	"createBy":""
+}
+
+res
+{
+	"status":""
+}
+
+/transactionDetail/update
+req
+{
+	"transactionNo":"",
+	"accountNo":"",
+	"transactionStatus":"",
+	"amount":"",
+	"principle":"",
+	"interest":"",
+	"fines":"",
+	"note":"",
+	"createDate":"",
+	"createBy":""
+}
+
+res
+{
+	"status":""
+}
+
+/transactionDetail/delete
+req
+{
+	"transactionDetailNo":""
+}
+
+res
+{
+	"status":""
+}

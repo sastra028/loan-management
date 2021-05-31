@@ -1,0 +1,175 @@
+/transaction/find/all
+req
+{
+	pageNumber:""
+}
+
+res
+{
+	[
+		{
+			"transactionNo":"",
+			"accountNo":"",
+			"title":"",
+			"firstNameThai":"",
+			"lastNameThai":"",
+			"citizenId":"",
+			"loanDate":"",
+			"refundDate":"",
+			"loanAmount":"",
+			"status":"",
+			"note":"",
+			"updateDate":"",
+			"updateBy":"",
+			"createDate":"",
+			"createBy":""
+		},{...}
+	]
+}
+
+
+/transaction/find/byNameSet
+req
+{
+	firstName:"",
+	lastName:"",
+	citizenId:""
+}
+
+res
+{
+	{
+		"transactionNo":"",
+		"accountNo":"",
+		"title":"",
+		"firstNameThai":"",
+		"lastNameThai":"",
+		"citizenId":"",
+		"loanDate":"",
+		"refundDate":"",
+		"loanAmount":"",
+		"status":"",
+		"note":"",
+		"updateDate":"",
+		"updateBy":"",
+		"createDate":"",
+		"createBy":""
+	}
+}
+
+
+/transaction/find/paidToday
+req
+{
+	pageNumber:""
+}
+
+res
+{
+	[
+		{
+			"transactionNo":"",
+			"accountNo":"",
+			"title":"",
+			"firstNameThai":"",
+			"lastNameThai":"",
+			"citizenId":"",
+			"loanDate":"",
+			"refundDate":"",
+			"loanAmount":"",
+			"status":"",
+			"note":"",
+			"updateDate":"",
+			"updateBy":"",
+			"createDate":"",
+			"createBy":""
+		},{...}
+	]
+}
+
+
+/transaction/find/overdue
+req
+{
+	pageNumber:""
+}
+
+res
+{
+	[
+		{
+			"transactionNo":"",
+			"accountNo":"",
+			"title":"",
+			"firstNameThai":"",
+			"lastNameThai":"",
+			"citizenId":"",
+			"loanDate":"",
+			"refundDate":"",
+			"loanAmount":"",
+			"status":"",
+			"note":"",
+			"updateDate":"",
+			"updateBy":"",
+			"createDate":"",
+			"createBy":""
+		},{...}
+	]
+}
+
+
+/transaction/create
+req
+{
+	"accountNo":"",
+	"title":"",
+	"firstNameThai":"",
+	"lastNameThai":"",
+	"citizenId":"",
+	"loanDate":"",
+	"refundDate":"",
+	"loanAmount":"",
+	"status":"",
+	"note":"",
+	"updateBy":"",
+	"createBy":""
+}
+
+res
+{
+	"status":""
+}
+
+
+/transaction/update
+req
+{
+	"transactionNo":"",
+	"accountNo":"",
+	"title":"",
+	"firstNameThai":"",
+	"lastNameThai":"",
+	"citizenId":"",
+	"loanDate":"",
+	"refundDate":"",
+	"loanAmount":"",
+	"status":"",
+	"note":"",
+	"updateBy":""
+}
+
+res
+{
+	"status":""
+}
+
+/transaction/delete
+req
+{
+	"transactionNo":""
+}
+
+res
+{
+	"status":""
+}

@@ -1,0 +1,96 @@
+/account/create
+req
+{
+	"title":"",
+	"firstNameThai":"",
+	"lastNameThai":"",
+	"firstNameEng":"",
+	"lastNameEng":"",
+	"citizenId":"",
+	"bankName":"",
+	"bankAccountName":"",
+	"bankAccountId":"",
+	"tel1":"",
+	"tel2":"",
+	"tel3":"",
+	"telRef1":"",
+	"telRef2":"",
+	"telRef3":"",
+	"lineId":"",
+	"career":"",
+	"income":"",
+	"accountNoRef":"",
+	"address1":"",
+	"address2":"",
+	"address3":"",
+	"note":"",
+	"updateBy":"",
+	"createBy":""
+}
+
+res
+{
+	"status":""
+}
+
+/account/update
+req
+{
+	"accountNo":"",
+	"title":"",
+	"firstNameThai":"",
+	"lastNameThai":"",
+	"firstNameEng":"",
+	"lastNameEng":"",
+	"citizenId":"",
+	"bankName":"",
+	"bankAccountName":"",
+	"bankAccountId":"",
+	"tel1":"",
+	"tel2":"",
+	"tel3":"",
+	"telRef1":"",
+	"telRef2":"",
+	"telRef3":"",
+	"lineId":"",
+	"career":"",
+	"income":"",
+	"accountNoRef":"",
+	"address1":"",
+	"address2":"",
+	"address3":"",
+	"note":"",
+	"updateBy":"",
+	"createBy":""
+}
+
+res
+{
+	"status":""
+}
+
+
+/account/delete
+req
+{
+	"accountNo":""
+}
+
+res
+{
+	"status":""
+}
+
+/account/find
+req
+{
+	"accountNo":"",
+	"firstNameThai":"",
+	"lastNameThai":"",
+	"citizenId":"",
+}
+
+res
+{
+	"status":""
+}

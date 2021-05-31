@@ -1,0 +1,37 @@
+/store/image/contract/upload
+{
+	"transactionNo":"",
+	"imageData":""
+}
+
+{
+	"status":""
+}
+
+/store/image/contract/find
+{
+	"transactionNo":"",
+}
+
+{
+	"imageData":""
+}
+
+/store/image/slip/upload
+{
+	"transactionDetailNo":"",
+	"imageData":""
+}
+
+{
+	"status":""
+}
+
+/store/image/slip/find
+{
+	"transactionDetailNo":"",
+}
+
+{
+	"imageData":""
+}

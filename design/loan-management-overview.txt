@@ -1,0 +1,16 @@
+loan-management
+	web (Amazon S3)
+		loan-management-web
+
+	service (Elastic Beanstalk/Environments)
+		loan-management-transaction
+		loan-management-store
+
+	database (RDS/database)
+		account
+		transaction
+		transaction_detail
+
+	store (Amazon S3)
+		contract
+		slip

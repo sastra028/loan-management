@@ -1,0 +1,6 @@
+git project: https://github.com/sastra028/loan-management.git
+git loan-management-web:
+git loan-management-transaction:
+git loan-management-store:
+git loan-management-script:
+
