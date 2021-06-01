@@ -3,6 +3,7 @@ loan-management
 		loan-management-web
 
 	service (Elastic Beanstalk/Environments)
+		loan-management-account
 		loan-management-transaction
 		loan-management-store
 
